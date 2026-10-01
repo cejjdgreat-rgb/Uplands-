@@ -1,0 +1,6 @@
+{
+  "name": "Uplands Culinary Hub",
+  "description": "Good Food. Great Taste. Made with Love. Uplands Culinary Hub in Lakeside Estate, Nsuo Anu, Accra offering authentic Ghanaian cuisine, breakfast specials, WhatsApp ordering, catering, and event hosting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

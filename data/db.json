@@ -1,0 +1,553 @@
+{
+  "admin": {
+    "username": "admin",
+    "salt": "06ce6c737132ed0a99a23f745bf957f8",
+    "passwordHash": "85a693972cea96d5bdaff9461fb5aa31a6360aa84c8723fdff79566e26b6cb42",
+    "updatedAt": "2026-09-30T19:32:02.390Z"
+  },
+  "sessions": {
+    "45c615fb8a084709c96d50f5e5ffc115a846c5a94fc5de53e91faf0813c25a8e": {
+      "username": "admin",
+      "role": "superadmin",
+      "expiresAt": 1790798534464
+    },
+    "2106f1b70322529aa88c0a0d7f8a0663edd785c8b5cb2b3be7b2fb5a5b955314": {
+      "username": "admin",
+      "role": "superadmin",
+      "expiresAt": 1790798547104
+    },
+    "ebb831df67800e84a35c7f54da60fc375f84f9380d82c552d562031714cdc694": {
+      "username": "admin",
+      "role": "superadmin",
+      "expiresAt": 1790798550001
+    },
+    "d99530ad2f8633d8203a70d8d0366370f404592adbfb256a37d3e04cfb62e202": {
+      "username": "admin",
+      "role": "superadmin",
+      "expiresAt": 1790798553704
+    }
+  },
+  "menu": [
+    {
+      "id": "banku-tilapia",
+      "name": "Banku with Tilapia",
+      "category": "grilled",
+      "categoryLabel": "Local & Grilled Specialties",
+      "description": "Hot steamed fermented corn and cassava dough dumplings served with a whole freshly char-grilled spiced Tilapia fish, freshly ground hot pepper salsa, sliced red onions, and rich Ghanaian black shito.",
+      "ingredients": [
+        "Fermented Corn Dough",
+        "Cassava Dough",
+        "Fresh River Tilapia",
+        "Habanero Hot Pepper Salsa",
+        "Red Onions",
+        "House Shito"
+      ],
+      "priceGHS": 95,
+      "image": "/src/assets/images/food_banku_tilapia_1790612466995.jpg",
+      "badge": "House Signature",
+      "isPopular": true,
+      "isAvailable": true,
+      "isBreakfastSpecial": false,
+      "displayOrder": 0,
+      "servingTime": "11:30 AM – 9:30 PM",
+      "dietaryTags": [
+        "Pescatarian",
+        "Gluten-Free",
+        "Charcoal-Grilled"
+      ],
+      "options": [
+        {
+          "name": "Pepper Level",
+          "choices": [
+            "Mild",
+            "Standard Hot",
+            "Extra Hot & Shito"
+          ]
+        },
+        {
+          "name": "Portion Size",
+          "choices": [
+            "Single (2 Banku)",
+            "Platter (3 Banku + Extra Gravy)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jollof-chicken",
+      "name": "Jollof Rice with Fried Chicken",
+      "category": "mains",
+      "categoryLabel": "Rice Dishes",
+      "description": "Authentic Ghanaian party Jollof rice simmered in a slow-reduced aromatic tomato and herbal broth, topped with spiced golden crispy fried chicken drumstick/thigh, garnished with fresh tomato slices and green pepper.",
+      "ingredients": [
+        "Ghanaian Long-Grain Rice",
+        "Slow-Reduced Tomato Stew",
+        "Spiced Country Chicken",
+        "Rosemary & Ginger Marinade",
+        "Side Shito"
+      ],
+      "priceGHS": 75,
+      "image": "/src/assets/images/food_jollof_chicken_1790612478647.jpg",
+      "badge": "Crowd Favorite",
+      "isPopular": true,
+      "isAvailable": true,
+      "isBreakfastSpecial": false,
+      "displayOrder": 1,
+      "servingTime": "11:00 AM – 9:30 PM",
+      "dietaryTags": [
+        "Halal-Friendly",
+        "Party Classic"
+      ],
+      "options": [
+        {
+          "name": "Chicken Preparation",
+          "choices": [
+            "Crispy Golden Fried",
+            "Charcoal Grilled"
+          ]
+        },
+        {
+          "name": "Add-on Side",
+          "choices": [
+            "None",
+            "Fried Ripe Plantain (+GH₵ 15)",
+            "Egg (+GH₵ 8)",
+            "Coleslaw (+GH₵ 12)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fried-rice-chicken",
+      "name": "Fried Rice with Grilled Chicken",
+      "category": "mains",
+      "categoryLabel": "Rice Dishes",
+      "description": "Fragrant Ghanaian style wok-tossed vegetable fried rice with sweet golden corn, tender carrots, garden peas, and scallions, served with a succulent herb-infused char-grilled chicken leg quarter and fresh cucumber ribbons.",
+      "ingredients": [
+        "Fragrant Basmati Rice",
+        "Sweet Corn & Garden Peas",
+        "Carrots & Spring Onions",
+        "Char-Grilled Chicken Quarter",
+        "Spiced Pepper Sauce"
+      ],
+      "priceGHS": 75,
+      "image": "/src/assets/images/food_fried_rice_chicken_1790612494196.jpg",
+      "badge": "Chef's Cut",
+      "isPopular": true,
+      "isAvailable": true,
+      "isBreakfastSpecial": false,
+      "displayOrder": 2,
+      "servingTime": "11:00 AM – 9:30 PM",
+      "dietaryTags": [
+        "Halal-Friendly",
+        "Charcoal-Grilled"
+      ],
+      "options": [
+        {
+          "name": "Chicken Style",
+          "choices": [
+            "Herb Spiced Grilled",
+            "Golden Crisp Fried"
+          ]
+        },
+        {
+          "name": "Add-on Side",
+          "choices": [
+            "None",
+            "Fried Plantain (+GH₵ 15)",
+            "Extra Grilled Chicken Piece (+GH₵ 30)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attieke-tilapia",
+      "name": "Attieke with Grilled Tilapia",
+      "category": "grilled",
+      "categoryLabel": "Local & Grilled Specialties",
+      "description": "Steamed fluffy fermented cassava couscous (Attieke) paired with seasoned whole grilled Tilapia fish, topped with finely diced ripe tomatoes, sliced red onions, spicy green habaneros, and fresh lime slices.",
+      "ingredients": [
+        "Steamed Cassava Couscous (Attieke)",
+        "Whole Grilled Marinated Tilapia",
+        "Diced Vine Tomatoes",
+        "Crisp Red Onions",
+        "Habanero Chilies",
+        "Fresh Lime"
+      ],
+      "priceGHS": 95,
+      "image": "/src/assets/images/food_attieke_tilapia_1790612506186.jpg",
+      "badge": "Coastal Specialty",
+      "isPopular": true,
+      "isAvailable": true,
+      "isBreakfastSpecial": false,
+      "displayOrder": 3,
+      "servingTime": "11:30 AM – 9:30 PM",
+      "dietaryTags": [
+        "Pescatarian",
+        "Gluten-Free",
+        "Charcoal-Grilled"
+      ],
+      "options": [
+        {
+          "name": "Fish Preparation",
+          "choices": [
+            "Deep Charcoal Grilled",
+            "Lightly Crisped Grill"
+          ]
+        },
+        {
+          "name": "Spice Level",
+          "choices": [
+            "Regular Pepper & Onion Salsa",
+            "High Heat Chilies"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wheat-bread",
+      "name": "Wheat with Bread",
+      "category": "breakfast",
+      "categoryLabel": "Breakfast Specials",
+      "description": "Wholesome, slow-cooked whole wheat porridge lightly sweetened and served piping hot, accompanied by freshly baked soft Ghanaian butter bread.",
+      "ingredients": [
+        "Coarse Ground Whole Wheat",
+        "Evaporated Milk",
+        "Natural Cane Sugar",
+        "Warm Buttered Ghanaian Bread"
+      ],
+      "priceGHS": 35,
+      "image": "/src/assets/images/hero_uplands_culinary_spread_1790612455475.jpg",
+      "isPopular": false,
+      "isAvailable": true,
+      "isBreakfastSpecial": true,
+      "displayOrder": 4,
+      "servingTime": "7:00 AM – 11:30 AM",
+      "dietaryTags": [
+        "Vegetarian",
+        "High-Fiber Breakfast"
+      ],
+      "options": [
+        {
+          "name": "Sweetness",
+          "choices": [
+            "Sweetened with Milk",
+            "Unsweetened (Sugar on the side)",
+            "Extra Milk"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oat-porridge",
+      "name": "Oat Porridge with Bread",
+      "category": "breakfast",
+      "categoryLabel": "Breakfast Specials",
+      "description": "Creamy, velvety rolled oats porridge cooked to smooth perfection, blended with rich milk and served steaming hot with fresh bread slices.",
+      "ingredients": [
+        "Whole Rolled Oats",
+        "Creamy Milk",
+        "Cinnamon Whisper",
+        "Fresh Bakery Bread"
+      ],
+      "priceGHS": 35,
+      "image": "/src/assets/images/hero_uplands_culinary_spread_1790612455475.jpg",
+      "isPopular": false,
+      "isAvailable": true,
+      "isBreakfastSpecial": true,
+      "displayOrder": 5,
+      "servingTime": "7:00 AM – 11:30 AM",
+      "dietaryTags": [
+        "Vegetarian",
+        "Morning Comfort"
+      ],
+      "options": [
+        {
+          "name": "Preparation",
+          "choices": [
+            "Classic Sweet Milk",
+            "Extra Creamy",
+            "Side of Bread (+GH₵ 10)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tom-brown",
+      "name": "Tom Brown with Bread",
+      "category": "breakfast",
+      "categoryLabel": "Breakfast Specials",
+      "description": "Heritage Ghanaian breakfast staple made from roasted yellow corn, soya beans, and groundnuts, slowly simmered into a fragrant, nourishing porridge.",
+      "ingredients": [
+        "Roasted Yellow Corn Flour",
+        "Soya Bean Meal",
+        "Roasted Peanuts",
+        "Condensed / Evaporated Milk",
+        "Warm Loaf Slices"
+      ],
+      "priceGHS": 35,
+      "image": "/src/assets/images/hero_uplands_culinary_spread_1790612455475.jpg",
+      "isPopular": true,
+      "isAvailable": true,
+      "isBreakfastSpecial": true,
+      "displayOrder": 6,
+      "servingTime": "7:00 AM – 11:30 AM",
+      "dietaryTags": [
+        "Heritage Recipe",
+        "Nutrient-Dense"
+      ],
+      "options": [
+        {
+          "name": "Texture",
+          "choices": [
+            "Smooth & Velvety",
+            "Thick & Hearty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rice-water",
+      "name": "Rice Water with Bread",
+      "category": "breakfast",
+      "categoryLabel": "Breakfast Specials",
+      "description": "Traditional comforting Ghanaian slow-boiled white rice porridge, served smooth and warm with sweetened evaporated milk and soft butter bread.",
+      "ingredients": [
+        "Long Grain White Rice",
+        "Sweetened Condensed Milk",
+        "Nutmeg Touch",
+        "Bakery Fresh Bread"
+      ],
+      "priceGHS": 30,
+      "image": "/src/assets/images/hero_uplands_culinary_spread_1790612455475.jpg",
+      "isPopular": false,
+      "isAvailable": true,
+      "isBreakfastSpecial": true,
+      "displayOrder": 7,
+      "servingTime": "7:00 AM – 11:30 AM",
+      "dietaryTags": [
+        "Vegetarian",
+        "Gluten-Free Option"
+      ],
+      "options": [
+        {
+          "name": "Bread Option",
+          "choices": [
+            "Included Fresh Bread",
+            "Toasted Bread",
+            "Extra Bread (+GH₵ 10)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tea-bread",
+      "name": "Tea with Bread & Egg",
+      "category": "breakfast",
+      "categoryLabel": "Breakfast Specials",
+      "description": "Classic West African hot brewed tea beverage (Milo cocoa or black tea with rich condensed milk) served with fresh soft Ghanaian tea bread and butter spread.",
+      "ingredients": [
+        "Rich Cocoa / Tea Brew",
+        "Creamy Milk",
+        "Freshly Baked Sugar Bread / Butter Bread",
+        "Table Butter"
+      ],
+      "priceGHS": 30,
+      "image": "/src/assets/images/hero_uplands_culinary_spread_1790612455475.jpg",
+      "isPopular": false,
+      "isAvailable": true,
+      "isBreakfastSpecial": true,
+      "displayOrder": 8,
+      "servingTime": "7:00 AM – 11:30 AM",
+      "dietaryTags": [
+        "Vegetarian",
+        "Quick Breakfast"
+      ],
+      "options": [
+        {
+          "name": "Brew Choice",
+          "choices": [
+            "Rich Cocoa / Milo",
+            "Black Lipton Tea with Milk",
+            "Coffee Brew"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "uplands-sobolo",
+      "name": "Uplands Natural Sobolo Juice",
+      "category": "drinks",
+      "categoryLabel": "Refreshing Drinks",
+      "description": "Freshly brewed chilled hibiscus flower juice infused with natural ginger, cloves, and local spices. Refreshing, antioxidant-rich, and 100% natural.",
+      "ingredients": [
+        "Dried Hibiscus (Bissap)",
+        "Fresh Ginger Root",
+        "Cloves & Grains of Selim",
+        "Natural Pineapple Sweetening"
+      ],
+      "priceGHS": 25,
+      "image": "/src/assets/images/hero_uplands_culinary_spread_1790612455475.jpg",
+      "isPopular": true,
+      "isAvailable": true,
+      "isBreakfastSpecial": false,
+      "displayOrder": 9,
+      "servingTime": "All Day",
+      "dietaryTags": [
+        "Vegan",
+        "All-Natural",
+        "Cold Beverage"
+      ],
+      "options": [
+        {
+          "name": "Sweetness",
+          "choices": [
+            "Natural Sweetness",
+            "Mild Sugar",
+            "Extra Ginger Kick"
+          ]
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "label": "All Items",
+      "displayOrder": 0,
+      "description": "View our entire kitchen catalog"
+    },
+    {
+      "id": "grilled",
+      "label": "Grilled Specialties",
+      "displayOrder": 1,
+      "description": "Charcoal-grilled Tilapia, Banku, Attieke"
+    },
+    {
+      "id": "mains",
+      "label": "Rice Dishes",
+      "displayOrder": 2,
+      "description": "Ghanaian Party Jollof, Fried Rice"
+    },
+    {
+      "id": "breakfast",
+      "label": "Breakfast Bar",
+      "displayOrder": 3,
+      "description": "Morning porridges, Tom Brown, Wheat, Oat"
+    },
+    {
+      "id": "drinks",
+      "label": "Natural Drinks",
+      "displayOrder": 4,
+      "description": "Chilled Sobolo, Tigernut & Pineapple Juices"
+    }
+  ],
+  "orders": [],
+  "enquiries": [],
+  "promotions": [
+    {
+      "id": "promo-1",
+      "title": "Free Lakeside Delivery on Orders over GH₵ 250",
+      "code": "LAKESIDE250",
+      "description": "Enjoy free dispatch delivery straight to your doorstep across Lakeside Estate, Nsuo Anu, and surrounding areas.",
+      "discountPercent": 0,
+      "active": true,
+      "badgeText": "Free Delivery",
+      "applicableCategory": "all"
+    },
+    {
+      "id": "promo-2",
+      "title": "Weekend Outdoor Grill Banquet Special",
+      "code": "GRILLWEEKEND",
+      "description": "Book your outdoor celebration or family weekend feast with complimentary fresh shito and pepper salsa jars.",
+      "discountPercent": 10,
+      "active": true,
+      "badgeText": "10% Catering Off",
+      "applicableCategory": "catering"
+    }
+  ],
+  "content": {
+    "heroHeadline": "Authentic Taste. Hearty Portions. Lakeside Living.",
+    "heroTagline": "From sizzling charcoal-grilled Tilapia and aromatic Ghanaian Party Jollof to wholesome morning porridges and bespoke outdoor catering — experience good food made with love in Nsuo Anu, Lakeside Estate.",
+    "heroBadgeText": "Authentic Ghanaian Cuisine",
+    "announcementBarText": "🎉 Welcome to Uplands Culinary Hub — Serving fresh daily in Lakeside Estate, Nsuo Anu! Order on WhatsApp for prompt delivery.",
+    "announcementBarActive": true,
+    "announcementBarLink": "#menu",
+    "aboutTitle": "Our Heritage & Kitchen Story",
+    "aboutStory1": "Uplands Culinary Hub was founded in Lakeside Estate, Nsuo Anu, with a heartfelt commitment: to honor traditional Ghanaian culinary artistry through uncompromising quality, spotless hygiene, and generous hospitality.",
+    "aboutStory2": "Whether serving our steaming morning bowls of roasted Tom Brown and Oats, char-grilling fresh whole Tilapia over aromatic coals, or providing full chafing banquet catering for high-profile weddings and corporate functions, our team puts culinary excellence first.",
+    "chefQuote": "Good food is our love language to the Lakeside community.",
+    "footerTagline": "Good Food. Great Taste. Made with Love.",
+    "deliveryEstimateMins": "30 – 45 mins"
+  },
+  "settings": {
+    "restaurantName": "Uplands Culinary Hub",
+    "phone1": "+233241131434",
+    "phone2": "+233554235619",
+    "whatsappNumber": "233241131434",
+    "email": "uplandsculinaryhub@gmail.com",
+    "address": "Lakeside Estate, Nsuo Anu, Accra, Ghana",
+    "gpsCoordinates": "5.6883° N, 0.1342° W",
+    "weekdayHours": "7:00 AM – 9:30 PM",
+    "weekendHours": "7:00 AM – 10:00 PM",
+    "breakfastHours": "7:00 AM – 11:30 AM",
+    "currency": "GH₵",
+    "deliveryFeeGHS": 20,
+    "freeDeliveryThresholdGHS": 250,
+    "taxPercent": 0,
+    "serviceFeeGHS": 0,
+    "allowOnlineOrders": true,
+    "soundAlertsEnabled": true,
+    "socialLinks": {
+      "instagram": "https://instagram.com/uplandsculinaryhub",
+      "facebook": "https://facebook.com/uplandsculinaryhub",
+      "tiktok": "https://tiktok.com/@uplandsculinaryhub",
+      "snapchat": "https://snapchat.com/add/uplandsculinary",
+      "whatsapp": "https://wa.me/233241131434"
+    }
+  },
+  "media": [
+    {
+      "id": "media-0",
+      "title": "Uplands Culinary Hub Official Master Logo",
+      "category": "promotional",
+      "url": "/uplands_official_logo.jpg",
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "media-1",
+      "title": "Banku with Tilapia",
+      "category": "food",
+      "url": "/src/assets/images/food_banku_tilapia_1790612466995.jpg",
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "media-2",
+      "title": "Jollof Rice with Fried Chicken",
+      "category": "food",
+      "url": "/src/assets/images/food_jollof_chicken_1790612478647.jpg",
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "media-3",
+      "title": "Fried Rice with Grilled Chicken",
+      "category": "food",
+      "url": "/src/assets/images/food_fried_rice_chicken_1790612494196.jpg",
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "media-4",
+      "title": "Attieke with Grilled Tilapia",
+      "category": "food",
+      "url": "/src/assets/images/food_attieke_tilapia_1790612506186.jpg",
+      "createdAt": "2026-03-01T10:00:00Z"
+    },
+    {
+      "id": "media-5",
+      "title": "Outdoor Catering & Live Grill Event",
+      "category": "event",
+      "url": "/src/assets/images/catering_event_outdoor_1790612517851.jpg",
+      "createdAt": "2026-03-01T10:00:00Z"
+    }
+  ]
+}
