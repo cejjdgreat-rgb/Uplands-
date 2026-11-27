@@ -142,7 +142,7 @@ export const CateringSection: React.FC = () => {
         }`}>
           <div className="lg:col-span-7 relative h-72 sm:h-96 lg:h-auto overflow-hidden">
             <img
-              src="/src/assets/images/catering_event_outdoor_1790612517851.jpg"
+              src={`${import.meta.env.BASE_URL}src/assets/images/catering_event_outdoor_1790612517851.jpg`}
               alt="Uplands Culinary Hub outdoor event and catering setup"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"

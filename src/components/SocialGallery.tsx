@@ -47,25 +47,25 @@ export const SocialGallery: React.FC = () => {
       title: 'Char-Grilled Tilapia & Banku',
       dish: 'Banku with Tilapia',
       tag: 'Signature Grill',
-      img: '/src/assets/images/food_banku_tilapia_1790612466995.jpg',
+      img: `${import.meta.env.BASE_URL}src/assets/images/food_banku_tilapia_1790612466995.jpg`,
     },
     {
       title: 'Party Jollof Rice with Fried Chicken',
       dish: 'Ghanaian Jollof',
       tag: 'Weekend Favorite',
-      img: '/src/assets/images/food_jollof_chicken_1790612478647.jpg',
+      img: `${import.meta.env.BASE_URL}src/assets/images/food_jollof_chicken_1790612478647.jpg`,
     },
     {
       title: 'Outdoor Event Catering Setup',
       dish: 'Buffet & Live Grill',
       tag: 'Event Service',
-      img: '/src/assets/images/catering_event_outdoor_1790612517851.jpg',
+      img: `${import.meta.env.BASE_URL}src/assets/images/catering_event_outdoor_1790612517851.jpg`,
     },
     {
       title: 'Vegetable Fried Rice with Grilled Chicken',
       dish: 'Fried Rice',
       tag: 'Lunch Rush',
-      img: '/src/assets/images/food_fried_rice_chicken_1790612494196.jpg',
+      img: `${import.meta.env.BASE_URL}src/assets/images/food_fried_rice_chicken_1790612494196.jpg`,
     },
   ];
 

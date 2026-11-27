@@ -161,7 +161,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCart, onOpenReservation }) => 
                 : 'border-[#C5972C]/30 bg-[#061F14]'
             }`}>
               <img
-                src="/src/assets/images/hero_uplands_culinary_spread_1790612455475.jpg"
+                src={`${import.meta.env.BASE_URL}src/assets/images/hero_uplands_culinary_spread_1790612455475.jpg`}
                 alt="Uplands Culinary Hub signature feast with Banku with Tilapia, Ghanaian Jollof, and Fried Rice"
                 referrerPolicy="no-referrer"
                 className="w-full h-[380px] sm:h-[440px] object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
